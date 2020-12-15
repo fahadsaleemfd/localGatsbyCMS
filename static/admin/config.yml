@@ -1,0 +1,20 @@
+backend:
+  name: github
+  # change repo to your git repository url
+  branch: main
+  repo: localGatsbyCMS
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - name: blog
+    label: Blog
+    folder: src/pages/posts/slider
+    fields:
+      - {
+          label: Template,
+          name: template,
+          widget: hidden,
+          default: BlogPost,
+        }
+
