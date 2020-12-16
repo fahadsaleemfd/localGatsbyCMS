@@ -9,6 +9,7 @@ public_folder: /assets
 collections:
   - name: slider
     label: Slider
+    label_singular: Slider Image
     folder: src/pages/posts/slider/
     fields:
       - {
