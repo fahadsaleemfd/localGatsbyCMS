@@ -1,15 +1,15 @@
 backend:
   name: github
   # change repo to your git repository url
-  branch: main
-  repo: localGatsbyCMS
+  branch: master
+  repo: fahadsaleemfd/localGatsbyCMS
 media_folder: static/assets
 public_folder: /assets
 
 collections:
-  - name: blog
-    label: Blog
-    folder: src/pages/posts/slider
+  - name: blogTest
+    label: Blogs
+    folder: src/pages/posts/slider/
     fields:
       - {
           label: Template,
