@@ -1,7 +1,7 @@
 ---
 title: Image3
 date: 2018-12-07 07:00:00
-image: /assets/images-2-.jpg
+image: /assets/photo-1546897134-ccace13b9608.jpg
 tags:
   - Stylish
   - Web Design Developement
