@@ -7,8 +7,8 @@ media_folder: static/assets
 public_folder: /assets
 
 collections:
-  - name: blog
-    label: Blog
+  - name: slider
+    label: Slider
     folder: src/pages/posts/slider/
     fields:
       - {
