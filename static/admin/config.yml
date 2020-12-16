@@ -12,6 +12,7 @@ collections:
     label_singular: Slider Image
     folder: src/pages/posts/slider/
     summary: '{{title}}'
+    create: true
     description: >
       The description is a great place for tone setting, high level information, and editing
       guidelines that are specific to a collection.
