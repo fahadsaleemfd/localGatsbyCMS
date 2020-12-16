@@ -20,7 +20,7 @@ const Slider = () => (
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src={node.frontmatter.image.childImageSharp.fluid.src}
+                        src={node.frontmatter.image}
                             alt={node.id}
                         />
                         <Carousel.Caption>
@@ -47,14 +47,7 @@ const sliderQuery = graphql`
           id
           html
           frontmatter {
-          image{
-                
-                    childImageSharp{
-                      fluid(maxWidth:600){
-                        ...GatsbyImageSharpFluid
-                      }
-                    }
-            }
+          image
           }
         }
       }
